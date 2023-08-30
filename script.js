@@ -45,9 +45,9 @@ let catalogo = [{
 for (let produtoCatalogo of catalogo) {
 let cartaoProduto =  `<div>
 <img src="./imagens/${produtoCatalogo.nomeArquivoImagem}" style="height: 300px;">
-<p>${produtoCatalogo.marca}</p>
-<p>${produtoCatalogo.nome}</p>
-<p>R$ ${produtoCatalogo.preco}</p>
+<p class='marca'>${produtoCatalogo.marca}</p>
+<p class='nome'>${produtoCatalogo.nome}</p>
+<p class='preco'>R$ ${produtoCatalogo.preco}</p>
 <button>Adicionar</button>
 </div>`;
 
